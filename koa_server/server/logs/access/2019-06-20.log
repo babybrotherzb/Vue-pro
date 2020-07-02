@@ -1,0 +1,3 @@
+[2019-06-20T12:28:26.591] [INFO] access - ::ffff:127.0.0.1 - - "POST /kapi/login HTTP/1.1" 200 74 "" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+[2019-06-20T13:07:08.377] [INFO] access - ::ffff:127.0.0.1 - - "POST /kapi/login HTTP/1.1" 200 75 "" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
+[2019-06-20T17:05:16.936] [INFO] access - ::ffff:127.0.0.1 - - "POST /kapi/login HTTP/1.1" 200 74 "" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36"
