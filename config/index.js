@@ -55,7 +55,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'), // 打包根路径
     assetsSubDirectory: 'static', // 打包静态资源地址
-    assetsPublicPath: './', // 公共路径
+    assetsPublicPath: '/', // 公共路径
 
     /**
      * Source Maps
