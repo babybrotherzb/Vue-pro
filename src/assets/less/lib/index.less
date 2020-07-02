@@ -1,0 +1,227 @@
+// @Author: x10
+// @create: 2018-06-05
+
+@import url(./font/font.less);
+@import url(color.less);
+@import url(mixin.less);
+@import url(icon.less);
+@import url(text.less);
+
+
+//规范  命名以 g- 开头
+.g-container {
+    min-width: 903px;
+    padding: 20px 30px;
+    border-radius: 3px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.g-title-com{
+    font-size: 24px;
+    color:#333;
+    margin-right:20px
+}
+.g-clearfix {
+  .clearfix();
+}
+
+.g-center-block {
+  .center-block();
+}
+
+.g-fr {
+  float: right !important;
+}
+
+.g-fl{
+  float: left !important;
+}
+
+.g-hide{
+  display: none !important;
+}
+
+.g-show {
+  display: block !important;
+}
+
+.g-invisible {
+  visibility: hidden;
+}
+
+.g-text-hide {
+  .text-hide();
+}
+
+.g-hidden {
+  display: none !important;
+}
+
+.g-affix {
+  position: fixed;
+}
+
+
+// a 标签
+.g-a-margin{
+    display: inline-block;
+    margin-left:5px;
+    margin-left: 5px;
+}
+
+
+
+// 字体
+.g-font-regular{
+    font-family: 'DINPro-Regular';
+}
+
+
+// 盒子阴影
+.g-box-shadow{
+    box-shadow: 0px 2px 8px rgba(5, 41, 66, 0.08);
+}
+
+// 表格
+.g-filter-table-panel{
+    background-color: #FFF;
+    padding: 24px 32px;
+    margin-top: 20px;
+}
+
+.g-filter-container{
+    padding-bottom: 20px;
+}
+.g-op-table-container{
+    padding-bottom: 10px;
+
+    &-text{
+      color: @color_9;
+      margin-top: 10px;
+    }
+}
+
+// 页码
+.g-pagination-container{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    .el-pagination{
+        display: inline-block;
+    }
+}
+
+.g-border{
+    border: 1px solid @color_border;
+}
+
+.g-border-bottom{
+    border-bottom: 1px solid @color_border;
+}
+
+.g-border-radius{
+    .border-radius(4px)
+}
+
+.g-transform-rotate9{
+    .transformRotate(90deg);
+}
+
+
+.g-panel{
+    background: #fff;
+    padding: 24px 0;
+}
+
+.g-btn-active{
+    color: @color_basic;
+    border-color: @color_basic;
+}
+
+// 按钮
+.btn-f90{
+    color:#fff;
+    background-color:#FF9900;
+    border-color: #FF9900;
+    &:hover{
+        color: #fff;
+        border-color: #df8600;
+        background-color:#df8600;
+    }
+}
+
+// 输入框
+.wid-350{
+width: 350px!important;
+}
+.lg-input {
+    .el-form-item__content{
+        width: 100%;
+    }
+}
+.sm-input {
+    .el-select,.el-input{
+        width: 155px;
+    }
+}
+
+// span标签（有颜色的）
+.tag-color{
+    padding: 2px 3px;
+    color: #fff!important;
+
+    &-basic{
+        background-color: @color_basic
+    }
+
+    &-blue{
+        background-color: @color_blue
+    }
+
+    &-danger{
+        background-color: @color_danger
+    }
+
+    &-success{
+        background-color: @color_success
+    }
+
+    &-info{
+        background-color: @color_info
+    }
+}
+
+// span标签（灰扑扑的）
+.tag {
+    border-radius: 3px;
+    padding: 2px 3px;
+    background-color: rgb( 243, 242, 242 );
+    color: @color_a3;
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  
+a{
+    cursor: pointer;
+}
+
+.sidebar{
+    display: block;
+    position: fixed;
+    width: 160px;
+    left: 0;
+    top: 50px;
+    bottom: 0;
+    background: #0F1014;
+}
+.content{
+    display: block;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    bottom: 0;
+    right: 0;
+    padding: 30px;
+}

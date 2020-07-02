@@ -1,0 +1,22 @@
+[2019-07-09T10:43:04.168] [ERROR] errors - ReferenceError: window is not defined
+    at router.post (D:\myself\myself-github\vue-pro\koa_server\server\router\index.js:5:38)
+    at dispatch (D:\myself\myself-github\vue-pro\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\myself\myself-github\vue-pro\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\myself\myself-github\vue-pro\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\myself\myself-github\vue-pro\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\myself\myself-github\vue-pro\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\myself\myself-github\vue-pro\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\myself\myself-github\vue-pro\node_modules\koa-compose\index.js:42:32)
+    at D:\myself\myself-github\vue-pro\node_modules\koa-body\index.js:98:14
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-07-09T10:43:07.645] [ERROR] errors - ReferenceError: window is not defined
+    at router.post (D:\myself\myself-github\vue-pro\koa_server\server\router\index.js:5:38)
+    at dispatch (D:\myself\myself-github\vue-pro\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\myself\myself-github\vue-pro\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\myself\myself-github\vue-pro\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\myself\myself-github\vue-pro\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\myself\myself-github\vue-pro\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\myself\myself-github\vue-pro\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\myself\myself-github\vue-pro\node_modules\koa-compose\index.js:42:32)
+    at D:\myself\myself-github\vue-pro\node_modules\koa-body\index.js:98:14
+    at process._tickCallback (internal/process/next_tick.js:68:7)

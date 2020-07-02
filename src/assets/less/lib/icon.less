@@ -1,0 +1,280 @@
+// @Author: x10
+// @create: 2018-06-05
+
+
+//注意 注意。把 font-family: 'iconfont';   改为 font-family: 'icon';   
+@font-face {
+  font-family: 'iconfont';  /* project id 909699 */
+  src: url('//at.alicdn.com/t/font_909699_ob6nyi12mmb.eot');
+  src: url('//at.alicdn.com/t/font_909699_ob6nyi12mmb.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_909699_ob6nyi12mmb.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_909699_ob6nyi12mmb.woff') format('woff'),
+  url('//at.alicdn.com/t/font_909699_ob6nyi12mmb.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_909699_ob6nyi12mmb.svg#iconfont') format('svg');
+}
+// @font-face {
+//   font-family: 'icon';  /* project id 499637 */
+//   src: url('//at.alicdn.com/t/font_499637_q5pjuzdgknijm7vi.eot');
+//   src: url('//at.alicdn.com/t/font_499637_q5pjuzdgknijm7vi.eot?#iefix') format('embedded-opentype'),
+//   url('//at.alicdn.com/t/font_499637_q5pjuzdgknijm7vi.woff') format('woff'),
+//   url('//at.alicdn.com/t/font_499637_q5pjuzdgknijm7vi.ttf') format('truetype'),
+//   url('//at.alicdn.com/t/font_499637_q5pjuzdgknijm7vi.svg#icon') format('svg');
+// }
+// 
+// 使用  <span class="icon icon-jpg"></span>
+// 标签可以随意
+// .icon {
+// 	font-family: "icon" !important;
+// 	font-style: normal;
+// 	-webkit-font-smoothing: antialiased;
+// 	-webkit-text-stroke-width: 0.2px;
+// 	-moz-osx-font-smoothing: grayscale;
+// 	line-height: 1;
+// }
+.iconfont {
+	font-family:"iconfont" !important;
+	font-size:16px;
+	font-style:normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
+  
+
+// .icon-collapse:before{ 
+// 	content: "\e6d2";
+// }
+
+.icon-border-error:before{ // 错误
+	content: "\e61c";
+}
+.icon-look-smile:before{ // 表情 笑
+	content: "\e630";
+}
+.icon-look-cry:before{ // 表情 哭
+	content: "\e6e5";
+}
+.icon-woman:before{ // 男
+	content: "\e644";
+}
+.icon-man:before{ // 女
+	content: "\e63e";
+}
+.icon-qrCode:before{ // 二维码
+	content: "\eaf1";
+}
+.icon-eye:before{ // 二维码
+	content: "\e600";
+}
+.icon-zan:before{ // 二维码
+	content: "\e619";
+}
+.icon-msg:before{ // 二维码
+	content: "\e638";
+}
+.icon-user:before{ // 用户
+	content: "\e672";
+}
+
+.icon-money:before{ // 金钱
+	content: '\e602'
+}
+
+// .icon-money-twe:before{
+// 	content: '\e65b'
+// }
+
+// .icon-pc:before{ // pc
+// 	content: '\e616'
+// }
+
+.icon-bao:before{ // 保
+	content: '\e629'
+}
+
+// .icon-info:before{ // info
+// 	content: '\e64e'
+// }
+
+.icon-arrow-up:before{ // 箭头上
+	content: '\e601';
+	color: @color_danger;
+}
+
+.icon-arrow-down:before{ // 箭头下
+	content: '\e609';
+	color: @color_0c3;
+}
+
+.icon-head:before{
+	content: '\e62d';
+}
+// ￥
+.icon-money:before{
+	content: '\eb03';
+}
+// 云
+.icon-cloud:before{
+	content: '\e77e';
+}
+
+
+// .icon-edit:before { // 编辑
+// 	content: "\e602";
+// }
+
+// .icon-shutdown:before { // 关机
+// 	content: "\e654";
+// }
+
+// .icon-msg:before { // 消息
+// 	content: "\e6ab";
+// }
+
+// .icon-user:before { // 用户
+// 	content: "\e62a";
+// }
+
+
+
+
+//images icon
+// 
+// 使用  <span class="img-icon img-icon-shrink"></span>
+// 标签可以随意
+.img-icon(){
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
+	line-height: 1;
+	width: 12px;
+	height: 12px;
+	vertical-align: text-top;
+	margin-right: 3px
+}
+.img-icon-width{
+	width: 18px !important;
+	height: 18px !important;
+}
+
+.icon-like{ // 点赞
+	background-image: url(../../../static/img/like.png);
+	.img-icon()
+}
+
+.icon-comment{ // 评论
+	background-image: url(../../../static/img/comment.png);
+	.img-icon();
+	vertical-align: middle!important;
+}
+.icon-flow{ // 流程
+	background-image: url(../../../static/img/lcpq.png);
+	.img-icon();
+	vertical-align: middle!important;
+}
+.icon-message-pq{ // 流程
+	background-image: url(../../../static/img/message-pq.png);
+	.img-icon();
+	vertical-align: middle!important;
+}
+.icon-money-pq{ // 流程
+	background-image: url(../../../static/img/money.png);
+	.img-icon();
+	vertical-align: middle!important;
+}
+// 验证码
+.icon-code{ 
+	background-image: url(../../../static/img/icon_code.png);
+	.img-icon();
+	vertical-align: middle!important;
+	width: 16px;
+    height: 16px;
+}
+// 密码
+.icon-password{
+	background-image: url(../../../static/img/icon_pwd.png);
+	.img-icon();
+	vertical-align: middle!important;
+	width: 16px;
+    height: 16px;
+}
+// 账号
+.icon-account{
+	background-image: url(../../../static/img/icon_person.png);
+	.img-icon();
+	vertical-align: middle!important;
+	width: 16px;
+    height: 16px;
+}
+
+// 云支付
+// .icon-cloud{
+// 	background-image: url(../../../static/img/icon_person.png);
+// 	.img-icon();
+// 	vertical-align: middle!important;
+// }
+// .icon-cloud-active{
+// 	background-image: url(../../../static/img/icon_person.png);
+// 	.img-icon();
+// 	vertical-align: middle!important;
+// }
+// 侧边栏 icon
+
+// .side-bar-img-icon(){
+// 	width: 18px;
+// 	height: 16px;
+// 	background-size: cover;
+// }
+// .img-icon_index{
+// 	background-image: url(../../images/side_bar/side_bar_index.png);
+// 	.side-bar-img-icon();
+// }
+// .img-icon_person{
+// 	background-image: url(../../images/side_bar/side_bar_person.png);
+// 	.side-bar-img-icon();
+// }
+// .img-media_man{
+// 	background-image: url(../../images/side_bar/side_bar_media.png);
+// 	.side-bar-img-icon();
+// }
+// .img-icon_order{
+// 	background-image: url(../../images/side_bar/side_bar_order.png);
+// 	.side-bar-img-icon();
+// }
+// .img-financial{
+// 	background-image: url(../../images/side_bar/side_bar_money.png);
+// 	.side-bar-img-icon();
+// }
+// .img-statistics{
+// 	background-image: url(../../images/side_bar/side_bar_data.png);
+// 	.side-bar-img-icon();
+// }
+// .img-icon_cps{
+// 	background-image: url(../../images/side_bar/side_bar_cps.png);
+// 	.side-bar-img-icon();
+// }
+// .img-inte_conf{
+// 	background-image: url(../../images/side_bar/side_bar_qd.png);
+// 	.side-bar-img-icon();
+// }
+// .img-icon_set{
+// 	background-image: url(../../images/side_bar/side_bar_more.png);
+// 	.side-bar-img-icon();
+// }
+// .img-icon_phone{
+// 	background-image: url(../../images/side_bar/side_bar_phone.png);
+// 	.side-bar-img-icon();
+// }
+
+// .img-icon_fans{
+// 	background-image: url(../../images/icon/fans.png);
+// 	background-size: 58px 51px;
+// 	// .side-bar-img-icon();
+// }
+// .img-icon_visitor{
+// 	background-image: url(../../images/icon/visitor.png);
+// 	background-size: 346px 264px;
+// }
+
+
+

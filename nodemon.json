@@ -1,0 +1,30 @@
+{
+    "restartable": "rs",
+    "ignore": [
+        ".git",
+        "node_modules/**/node_modules",
+        "src/*",
+        "_download/*",
+        "resources/*",
+        "dist/*",
+        "script/*",
+        "app/*",
+        "build/*",
+        "database/*",
+        "public/*",
+        "routes/*",
+        "storage/*",
+        "tests/*",
+        "theme/*",
+        "composer.json"
+    ],
+    "verbose": true,
+    "execMap": {
+        "js": "node --harmony"
+    },
+    "env": {
+        "NODE_ENV": "development",
+        "DEBUG": "*,-nodemon:*,-nodemon,-knex:pool"
+    },
+    "ext": "js json"
+}

@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id":"1",
+            "name":"个人主页",
+            "url": "/home"
+        },
+        {
+            "id":"2",
+            "name":"Vuex",
+            "url": "/vuex"
+        },
+        {
+            "id":"3",
+            "name":"Echarts",
+            "url": "/echarts"
+        },
+        {
+            "id":"7",
+            "name":"预算",
+            "url": "/finance"
+        },
+        {
+            "id":"8",
+            "name":"数据列表",
+            "url": "/data"
+        },
+        {
+            "id":"10",
+            "name":"设置",
+            "url": "/set"
+        }
+    ]
+}

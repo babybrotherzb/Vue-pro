@@ -1,0 +1,77 @@
+
+// 清除浮动
+.clearfix() {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// 透明度
+.opacity(@opacity) {
+  opacity: @opacity;
+  // IE8 filter
+  @opacity-ie: (@opacity * 100);
+  filter: ~"alpha(opacity=@{opacity-ie})";
+}
+
+// 省略号
+.text-overflow() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+
+// 圆角
+.border-top-radius(@radius) {
+    border-top-right-radius: @radius;
+   	border-top-left-radius: @radius;
+}
+.border-right-radius(@radius) {
+  	border-bottom-right-radius: @radius;
+    border-top-right-radius: @radius;
+}
+.border-bottom-radius(@radius) {
+  	border-bottom-right-radius: @radius;
+   	border-bottom-left-radius: @radius;
+}
+.border-left-radius(@radius) {
+  	border-bottom-left-radius: @radius;
+    border-top-left-radius: @radius;
+}
+.border-radius(@radius){
+	border-radius: @radius;
+}
+
+// 居中块
+.center-block() {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// 隐藏文本
+.hide-text() {
+  font: ~"0/0" a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.text-hide() {
+  .hide-text();
+}
+
+.transformRotate(@rotate){
+    transform:rotate(@rotate);
+    -ms-transform:rotate(@rotate);   /* IE 9 */
+    -moz-transform:rotate(@rotate);  /* Firefox */
+    -webkit-transform:rotate(@rotate); /* Safari 和 Chrome */
+    -o-transform:rotate(@rotate);  /* Opera */
+}
+
