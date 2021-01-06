@@ -13,7 +13,7 @@
     "koa": "nodemon --config nodemon.json  koa_server/server/index.js"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "echarts": "^3.8.5",
     "element-ui": "^2.8.2",
     "fs.promised": "^3.0.0",
